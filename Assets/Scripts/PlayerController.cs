@@ -6,7 +6,6 @@ using Nebula;
 
 public class PlayerController : MonoBehaviour
 {
-    private Transform transform;
     private Rigidbody2D playerBody;
     private BoxCollider2D playerUpperCollider;
     private SpriteRenderer sprite;
@@ -25,13 +24,14 @@ public class PlayerController : MonoBehaviour
 
     private bool isGrounded = false;
     private float lengthOfAnklesRay = 0.2f;
+    [SerializeField] private float anklesRayOffset = 0.7f;
 
     private bool isAgainstWall = false;
     private float lengthOfChestRay = 0.2f;
+    [SerializeField] private float chestRayOffset = 0.25f;
 
     private void Awake()
     {
-        this.transform = GetComponent<Transform>();
         this.playerBody = GetComponent<Rigidbody2D>();
         this.playerUpperCollider = GetComponent<BoxCollider2D>();
         this.animator = GetComponent<Animator>();
@@ -119,20 +119,13 @@ public class PlayerController : MonoBehaviour
     {
         // RayCast from player's ankles (Make sure this ray doesn't hit the player's box collider)
         Vector2 locationOfAnkles = new Vector2(transform.position.x,
-                                              transform.position.y - 0.70f);
+                                              transform.position.y - anklesRayOffset);
         // Check if it hits anything
         RaycastHit2D hit = Physics2D.Raycast(locationOfAnkles, -Vector2.up, lengthOfAnklesRay);
         Debug.DrawRay(locationOfAnkles, -Vector2.up * lengthOfAnklesRay, Color.red);
 
         if (hit.collider && hit.collider.tag == "Enviornment")
         {
-            if (!this.isGrounded)
-            {
-                // Force feet on ground
-                Vector2 position = playerBody.position;
-                position.y = (hit.point.y + 0.75f);
-                playerBody.position = position;
-            }
             this.isGrounded = true;
         }
         else
@@ -150,7 +143,7 @@ public class PlayerController : MonoBehaviour
             facingMultiplier = -1;
         }
         // RayCast from player's chest (Make sure this ray doesn't hit the player's box collider)
-        Vector2 locationOfChest = new Vector2(transform.position.x + (0.25f * facingMultiplier),
+        Vector2 locationOfChest = new Vector2(transform.position.x + (chestRayOffset * facingMultiplier),
                                               transform.position.y);
         // Check if it hits anything
         RaycastHit2D hit = Physics2D.Raycast(locationOfChest, Vector2.right * facingMultiplier, lengthOfChestRay);
@@ -162,7 +155,7 @@ public class PlayerController : MonoBehaviour
             {
                 // Force chest to wall
                 Vector2 position = playerBody.position;
-                position.x = (hit.point.x - (0.25f * facingMultiplier));
+                position.x = (hit.point.x - (chestRayOffset * facingMultiplier));
                 playerBody.position = position;
             }
             this.isAgainstWall = true;
@@ -204,7 +197,7 @@ public class PlayerController : MonoBehaviour
 
     private void IdleStateAction()
     {
-        Utils2D.DisplayInfo(this.transform, "Idle");
+        Utils2D.DisplayInfo(transform, "Idle");
 
         // If player is moving. Stop them.
         if (playerBody.velocity.x > 0.1f && !stoppingNegative)
@@ -567,6 +560,10 @@ public class PlayerController : MonoBehaviour
     {
         Vector2 jumpVector = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         jumpVector.Normalize();
+
+        // Set Velocity to zero to have consistent jumps.
+        playerBody.velocity = Vector2.zero;
+
         if (Input.GetAxis("Vertical") < 0)
         {
             playerBody.AddForce(jumpVector * (_wallJumpForce / 2));

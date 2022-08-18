@@ -1,112 +1,7 @@
 fileFormatVersion: 2
 guid: f209e311c37ceb3478ad14bc57101970
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -8590017427813467865
-    second: Main_UL
-  - first:
-      213: -5641071144920277919
-    second: Main_T
-  - first:
-      213: 3075710693275963952
-    second: Main_UR
-  - first:
-      213: -3007817983066358288
-    second: Small_Ver_T
-  - first:
-      213: -679662160601931045
-    second: Inward_Corner_UL
-  - first:
-      213: -615216900180320380
-    second: Inward_Corner_UR
-  - first:
-      213: 7921222385507388811
-    second: Main_L
-  - first:
-      213: 7183389873357262734
-    second: Main
-  - first:
-      213: 2964280156083457160
-    second: Main_R
-  - first:
-      213: -1648680508554521774
-    second: Small_Ver_C
-  - first:
-      213: 7794293232451480429
-    second: Inward_Corner_LL
-  - first:
-      213: -1793482854328740714
-    second: Inward_Corner_LR
-  - first:
-      213: 8582173179670678012
-    second: Main_LL
-  - first:
-      213: 6688968418789929171
-    second: Main_B
-  - first:
-      213: -759642045716070789
-    second: Main_LR
-  - first:
-      213: 2580398658506696740
-    second: Small_Ver_B
-  - first:
-      213: -1901513759966601230
-    second: Small_Hor_L
-  - first:
-      213: -7893313280513908892
-    second: Small_Hor_C
-  - first:
-      213: 1872249714240134051
-    second: Small_Hor_R
-  - first:
-      213: -8517538293098175226
-    second: Chain_Center
-  - first:
-      213: -7132626433536845401
-    second: Door
-  - first:
-      213: 6642524843133709507
-    second: Chain_End
-  - first:
-      213: 6511447214248057892
-    second: 2D-Platformer-Tilesheet_22
-  - first:
-      213: 4250563226461329783
-    second: Long_Stair_Down
-  - first:
-      213: -2693593246731592095
-    second: 2D-Platformer-Tilesheet_24
-  - first:
-      213: -3451052743157290575
-    second: Long_Stair_Up
-  - first:
-      213: -3184974559090889785
-    second: 2D-Platformer-Tilesheet_26
-  - first:
-      213: 6955829893720893264
-    second: Steep_Stair_Down
-  - first:
-      213: 5836863902341068694
-    second: Steep_Stair_Up
-  - first:
-      213: 8872396575261918734
-    second: 2D-Platformer-Tilesheet_29
-  - first:
-      213: -1029881168941695141
-    second: 2D-Platformer-Tilesheet_30
-  - first:
-      213: -4689426236968936324
-    second: 2D-Platformer-Tilesheet_31
-  - first:
-      213: 1779849897709334921
-    second: 2D-Platformer-Tilesheet_32
-  - first:
-      213: 1700255270171399201
-    second: 2D-Platformer-Tilesheet_33
-  - first:
-      213: 124271915826175662
-    second: 2D-Platformer-Tilesheet_34
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -152,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 25
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -174,7 +69,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -186,7 +81,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -194,11 +89,23 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -210,19 +117,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -233,7 +128,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Main_UL
+      name: 2D-Platformer-Tilesheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -247,14 +142,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72973c849a02ac880800000000000000
-      internalID: -8590017427813467865
+      spriteID: 8a34af9a564f5c144936368363c9aa89
+      internalID: -1682799153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main_T
+      name: 2D-Platformer-Tilesheet_1
       rect:
         serializedVersion: 2
         x: 16
@@ -268,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16c125e6ea3e6b1b0800000000000000
-      internalID: -5641071144920277919
+      spriteID: 008c4bd7ff41be84cac404177ad8b444
+      internalID: -67603084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main_UR
+      name: 2D-Platformer-Tilesheet_2
       rect:
         serializedVersion: 2
         x: 32
@@ -289,14 +184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0329598649e1faa20800000000000000
-      internalID: 3075710693275963952
+      spriteID: 54427cd010fe7ae4fabca7d5f269e392
+      internalID: -452675508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Small_Ver_T
+      name: 2D-Platformer-Tilesheet_3
       rect:
         serializedVersion: 2
         x: 48
@@ -310,14 +205,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fd3c420b751246d0800000000000000
-      internalID: -3007817983066358288
+      spriteID: 257df4f01bb8ff2459cc0458316979b6
+      internalID: -1052540847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inward_Corner_UL
+      name: 2D-Platformer-Tilesheet_4
       rect:
         serializedVersion: 2
         x: 64
@@ -331,14 +226,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd22c0eadda5196f0800000000000000
-      internalID: -679662160601931045
+      spriteID: d69c095dad4c6724cba88e4d3c9c1b32
+      internalID: -1313142964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inward_Corner_UR
+      name: 2D-Platformer-Tilesheet_5
       rect:
         serializedVersion: 2
         x: 80
@@ -352,14 +247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48f5fe42d7f4677f0800000000000000
-      internalID: -615216900180320380
+      spriteID: b1aeae8c56bb00a45af7244dedbfce56
+      internalID: -553743435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main_L
+      name: 2D-Platformer-Tilesheet_6
       rect:
         serializedVersion: 2
         x: 0
@@ -373,14 +268,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8d4a0b8ac5dded60800000000000000
-      internalID: 7921222385507388811
+      spriteID: 77e868fb4d002314aa18ae2a72c374f9
+      internalID: -790514174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main
+      name: 2D-Platformer-Tilesheet_7
       rect:
         serializedVersion: 2
         x: 16
@@ -394,14 +289,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8f0994d70780b360800000000000000
-      internalID: 7183389873357262734
+      spriteID: 491d70973902e7f418752c9871e168bb
+      internalID: -2044175051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main_R
+      name: 2D-Platformer-Tilesheet_8
       rect:
         serializedVersion: 2
         x: 32
@@ -415,14 +310,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88c0816b81d332920800000000000000
-      internalID: 2964280156083457160
+      spriteID: f35b4d9aabc6e95448e2ee38061a2293
+      internalID: 1730562397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Small_Ver_C
+      name: 2D-Platformer-Tilesheet_9
       rect:
         serializedVersion: 2
         x: 48
@@ -436,14 +331,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2535f7300d5be19e0800000000000000
-      internalID: -1648680508554521774
+      spriteID: 02b0cacd851eeaf4eb8ab27324d25fee
+      internalID: -2146019668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inward_Corner_LL
+      name: 2D-Platformer-Tilesheet_10
       rect:
         serializedVersion: 2
         x: 64
@@ -457,14 +352,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6b60832664ea2c60800000000000000
-      internalID: 7794293232451480429
+      spriteID: 0914632b7c8dc864cb065b0c8b5a40b3
+      internalID: -548641389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inward_Corner_LR
+      name: 2D-Platformer-Tilesheet_11
       rect:
         serializedVersion: 2
         x: 80
@@ -478,14 +373,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6945bf4a8d44c17e0800000000000000
-      internalID: -1793482854328740714
+      spriteID: 1b9bb1824b647c0448b1cf4d0d5c3021
+      internalID: -893359315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main_LL
+      name: 2D-Platformer-Tilesheet_12
       rect:
         serializedVersion: 2
         x: 0
@@ -499,14 +394,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf9c72f59010a1770800000000000000
-      internalID: 8582173179670678012
+      spriteID: 33e77ded099bce240afb0f39280adad8
+      internalID: -17985603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main_B
+      name: 2D-Platformer-Tilesheet_13
       rect:
         serializedVersion: 2
         x: 16
@@ -520,14 +415,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d0b7c3565df3dc50800000000000000
-      internalID: 6688968418789929171
+      spriteID: c41c4959c2a5e5c448c92b7288e1b42c
+      internalID: -1845421652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main_LR
+      name: 2D-Platformer-Tilesheet_14
       rect:
         serializedVersion: 2
         x: 32
@@ -541,14 +436,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7e74ac85953575f0800000000000000
-      internalID: -759642045716070789
+      spriteID: 89c32b055a3c7f2479609c3a33719870
+      internalID: 2108202917
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Small_Ver_B
+      name: 2D-Platformer-Tilesheet_15
       rect:
         serializedVersion: 2
         x: 48
@@ -562,14 +457,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 428af2b88ea6fc320800000000000000
-      internalID: 2580398658506696740
+      spriteID: 804c6bf059d5dc443865414e948d3f2b
+      internalID: 389326171
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Small_Hor_L
+      name: 2D-Platformer-Tilesheet_16
       rect:
         serializedVersion: 2
         x: 0
@@ -583,14 +478,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ff5ca95f477c95e0800000000000000
-      internalID: -1901513759966601230
+      spriteID: b57940b6d2e10fb4abd008a741cc5611
+      internalID: -1189067676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Small_Hor_C
+      name: 2D-Platformer-Tilesheet_17
       rect:
         serializedVersion: 2
         x: 16
@@ -604,14 +499,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46f58165461557290800000000000000
-      internalID: -7893313280513908892
+      spriteID: 2b0fb3b4318ec114098cf6c44241f2a1
+      internalID: 1769320949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Small_Hor_R
+      name: 2D-Platformer-Tilesheet_18
       rect:
         serializedVersion: 2
         x: 32
@@ -625,14 +520,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ab1c1c02319bf910800000000000000
-      internalID: 1872249714240134051
+      spriteID: 8e58bef6f0547a14fa999ced0a782cfe
+      internalID: -28925180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chain_Center
+      name: 2D-Platformer-Tilesheet_19
       rect:
         serializedVersion: 2
         x: 48
@@ -646,35 +541,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 605a81fdc00abc980800000000000000
-      internalID: -8517538293098175226
+      spriteID: df3a37761f8fa5048af6ac9e8d4ef105
+      internalID: 320255352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Door
+      name: 2D-Platformer-Tilesheet_20
       rect:
         serializedVersion: 2
         x: 64
-        y: 48
+        y: 64
         width: 16
-        height: 32
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a999798c02d30d90800000000000000
-      internalID: -7132626433536845401
+      spriteID: df1d1170c4e814942b45fade5217d385
+      internalID: -1817975710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chain_End
+      name: 2D-Platformer-Tilesheet_21
       rect:
         serializedVersion: 2
         x: 48
@@ -688,8 +583,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cc21b6b62dfe2c50800000000000000
-      internalID: 6642524843133709507
+      spriteID: 5e017d2b001aaab4c90339e3346e7964
+      internalID: 1409072446
       vertices: []
       indices: 
       edges: []
@@ -701,6 +596,27 @@ TextureImporter:
         x: 64
         y: 48
         width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24f7e96f0ccd4240b8e2dc25a55e5d9
+      internalID: -1463326973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Platformer-Tilesheet_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -709,29 +625,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42c56f20ebe4d5a50800000000000000
-      internalID: 6511447214248057892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Long_Stair_Down
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
-      alignment: 9
-      pivot: {x: 0.25, y: 0.25}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 779d098ebb80dfa30800000000000000
-      internalID: 4250563226461329783
+      spriteID: a7a08868073d0914993d08473ee17aad
+      internalID: 1232516484
       vertices: []
       indices: 
       edges: []
@@ -751,29 +646,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16e1c2f963f6e9ad0800000000000000
-      internalID: -2693593246731592095
+      spriteID: 744301b1f6fba9146afd3281a5bf58a1
+      internalID: 347821568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Long_Stair_Up
+      name: 2D-Platformer-Tilesheet_25
       rect:
         serializedVersion: 2
         x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 9
-      pivot: {x: 0.25, y: 0.25}
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b9e8f680d56b10d0800000000000000
-      internalID: -3451052743157290575
+      spriteID: 0705e770b8b2e604c82d37dfb677ab61
+      internalID: 1735741628
       vertices: []
       indices: 
       edges: []
@@ -793,60 +688,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cb2bb26382bcc3d0800000000000000
-      internalID: -3184974559090889785
+      spriteID: c94a58cf24f97624a9f0c946f1c24383
+      internalID: -713594429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Steep_Stair_Down
+      name: 2D-Platformer-Tilesheet_27
       rect:
         serializedVersion: 2
         x: 64
-        y: 0
-        width: 16
-        height: 32
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 057e64d4f62188060800000000000000
-      internalID: 6955829893720893264
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Steep_Stair_Up
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 0
-        width: 16
-        height: 32
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 697f65d4bc4b00150800000000000000
-      internalID: 5836863902341068694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2D-Platformer-Tilesheet_29
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -856,8 +709,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0601ee5da5112b70800000000000000
-      internalID: 8872396575261918734
+      spriteID: d3d8fb28987c4d347aa6920b56cd3263
+      internalID: -1780670738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Platformer-Tilesheet_28
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b265dc60e68e514f85bcd4b05a11076
+      internalID: -2069136401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Platformer-Tilesheet_DownLong
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eeb473d24febd44595285233cc0e678
+      internalID: -370275769
       vertices: []
       indices: 
       edges: []
@@ -877,8 +772,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5fbd5c888025b1f0800000000000000
-      internalID: -1029881168941695141
+      spriteID: d7cb142bf71fce9439047ad58d94954c
+      internalID: 719861889
       vertices: []
       indices: 
       edges: []
@@ -898,20 +793,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7cd111eeafcbeeb0800000000000000
-      internalID: -4689426236968936324
+      spriteID: 2d3e9f316dc51ab48991de0fd9c9c272
+      internalID: -698998439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2D-Platformer-Tilesheet_32
+      name: 2D-Platformer-Tilesheet_UpLong
       rect:
         serializedVersion: 2
-        x: 48
+        x: 32
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -919,20 +814,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 981fa7a4d0c43b810800000000000000
-      internalID: 1779849897709334921
+      spriteID: 035e816d0231f124a9c6052946a9defe
+      internalID: -112528282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2D-Platformer-Tilesheet_33
+      name: 2D-Platformer-Tilesheet_DownShort
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 16
-        height: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -940,20 +835,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1245d0ee825889710800000000000000
-      internalID: 1700255270171399201
+      spriteID: 6609396e59e448f4aba2f89cef032161
+      internalID: 762342143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2D-Platformer-Tilesheet_34
+      name: 2D-Platformer-Tilesheet_UpShort
       rect:
         serializedVersion: 2
         x: 80
         y: 0
         width: 16
-        height: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -961,8 +856,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eae506626a089b100800000000000000
-      internalID: 124271915826175662
+      spriteID: 0f0f58f664757f24da4cbbc103f385e7
+      internalID: 882018951
       vertices: []
       indices: 
       edges: []
@@ -978,41 +873,41 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      2D-Platformer-Tilesheet_26: -3184974559090889785
-      Inward_Corner_LL: 7794293232451480429
-      Inward_Corner_LR: -1793482854328740714
-      Main_UL: -8590017427813467865
-      Main_T: -5641071144920277919
-      Main: 7183389873357262734
-      Chain_End: 6642524843133709507
-      Small_Ver_B: 2580398658506696740
-      Inward_Corner_UR: -615216900180320380
-      Small_Hor_L: -1901513759966601230
-      Chain_Center: -8517538293098175226
-      Door: -7132626433536845401
-      2D-Platformer-Tilesheet_22: 6511447214248057892
-      Main_UR: 3075710693275963952
-      Small_Ver_C: -1648680508554521774
-      2D-Platformer-Tilesheet_30: -1029881168941695141
-      Main_L: 7921222385507388811
-      Small_Ver_T: -3007817983066358288
-      Steep_Stair_Up: 5836863902341068694
-      Long_Stair_Down: 4250563226461329783
-      Main_R: 2964280156083457160
-      Small_Hor_R: 1872249714240134051
-      Inward_Corner_UL: -679662160601931045
-      2D-Platformer-Tilesheet_32: 1779849897709334921
-      2D-Platformer-Tilesheet_29: 8872396575261918734
-      Main_LL: 8582173179670678012
-      Small_Hor_C: -7893313280513908892
-      Main_LR: -759642045716070789
-      2D-Platformer-Tilesheet_24: -2693593246731592095
-      2D-Platformer-Tilesheet_34: 124271915826175662
-      2D-Platformer-Tilesheet_33: 1700255270171399201
-      Long_Stair_Up: -3451052743157290575
-      2D-Platformer-Tilesheet_31: -4689426236968936324
-      Steep_Stair_Down: 6955829893720893264
-      Main_B: 6688968418789929171
+      2D-Platformer-Tilesheet_26: -713594429
+      2D-Platformer-Tilesheet_28: -2069136401
+      2D-Platformer-Tilesheet_12: -17985603
+      2D-Platformer-Tilesheet_DownShort: 762342143
+      2D-Platformer-Tilesheet_20: -1817975710
+      2D-Platformer-Tilesheet_5: -553743435
+      2D-Platformer-Tilesheet_7: -2044175051
+      2D-Platformer-Tilesheet_23: 1232516484
+      2D-Platformer-Tilesheet_9: -2146019668
+      2D-Platformer-Tilesheet_15: 389326171
+      2D-Platformer-Tilesheet_13: -1845421652
+      2D-Platformer-Tilesheet_27: -1780670738
+      2D-Platformer-Tilesheet_0: -1682799153
+      2D-Platformer-Tilesheet_22: -1463326973
+      2D-Platformer-Tilesheet_1: -67603084
+      2D-Platformer-Tilesheet_30: 719861889
+      2D-Platformer-Tilesheet_UpLong: -112528282
+      2D-Platformer-Tilesheet_8: 1730562397
+      2D-Platformer-Tilesheet_18: -28925180
+      2D-Platformer-Tilesheet_21: 1409072446
+      2D-Platformer-Tilesheet_UpShort: 882018951
+      2D-Platformer-Tilesheet_14: 2108202917
+      2D-Platformer-Tilesheet_2: -452675508
+      2D-Platformer-Tilesheet_11: -893359315
+      2D-Platformer-Tilesheet_16: -1189067676
+      2D-Platformer-Tilesheet_4: -1313142964
+      2D-Platformer-Tilesheet_3: -1052540847
+      2D-Platformer-Tilesheet_24: 347821568
+      2D-Platformer-Tilesheet_17: 1769320949
+      2D-Platformer-Tilesheet_DownLong: -370275769
+      2D-Platformer-Tilesheet_19: 320255352
+      2D-Platformer-Tilesheet_31: -698998439
+      2D-Platformer-Tilesheet_25: 1735741628
+      2D-Platformer-Tilesheet_6: -790514174
+      2D-Platformer-Tilesheet_10: -548641389
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
