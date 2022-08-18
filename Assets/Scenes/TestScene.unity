@@ -86104,7 +86104,23 @@ PrefabInstance:
       value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 6435202844873597882, guid: 5fd70a23780c86c4b9d66188aa28e01a, type: 3}
+      propertyPath: _maxSpeed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435202844873597882, guid: 5fd70a23780c86c4b9d66188aa28e01a, type: 3}
+      propertyPath: _runForce
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435202844873597882, guid: 5fd70a23780c86c4b9d66188aa28e01a, type: 3}
+      propertyPath: _jumpForce
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435202844873597882, guid: 5fd70a23780c86c4b9d66188aa28e01a, type: 3}
       propertyPath: sprintBoost
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435202844873597882, guid: 5fd70a23780c86c4b9d66188aa28e01a, type: 3}
+      propertyPath: _sprintBoost
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6435202844873597882, guid: 5fd70a23780c86c4b9d66188aa28e01a, type: 3}
@@ -86113,6 +86129,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6435202844873597882, guid: 5fd70a23780c86c4b9d66188aa28e01a, type: 3}
       propertyPath: stoppingForce
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435202844873597882, guid: 5fd70a23780c86c4b9d66188aa28e01a, type: 3}
+      propertyPath: _maxJumpHieght
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435202844873597882, guid: 5fd70a23780c86c4b9d66188aa28e01a, type: 3}
+      propertyPath: _stoppingForce
       value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 6435202844873597882, guid: 5fd70a23780c86c4b9d66188aa28e01a, type: 3}
@@ -86132,8 +86156,16 @@ PrefabInstance:
       value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 6435202844873597882, guid: 5fd70a23780c86c4b9d66188aa28e01a, type: 3}
+      propertyPath: _wallStallGravityScale
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435202844873597882, guid: 5fd70a23780c86c4b9d66188aa28e01a, type: 3}
       propertyPath: airborneMaxHorizontalSpeed
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6435202844873597882, guid: 5fd70a23780c86c4b9d66188aa28e01a, type: 3}
+      propertyPath: _airborneMaxHorizontalSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6435202844873597884, guid: 5fd70a23780c86c4b9d66188aa28e01a, type: 3}
       propertyPath: m_AngularDrag
