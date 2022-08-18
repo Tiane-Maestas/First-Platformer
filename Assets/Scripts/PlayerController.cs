@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
     private float lengthOfAnklesRay = 0.2f;
 
     private bool isAgainstWall = false;
-    private float lengthOfChestRay = 0.1f;
+    private float lengthOfChestRay = 0.2f;
 
     private void Awake()
     {
