@@ -211,7 +211,7 @@ public class PlayerController : MonoBehaviour
 
     private void IdleStateAction()
     {
-        Utils2D.DisplayInfo(transform, "Idle");
+        Utils.DisplayInfo(transform, "Idle");
 
         // If player is moving. Stop them.
         if (_playerBody.velocity.x > 0.1f && !_stoppingNegative)
@@ -252,7 +252,7 @@ public class PlayerController : MonoBehaviour
 
     private void RunningStateAction()
     {
-        Utils2D.DisplayInfo(this.transform, "Running");
+        Utils.DisplayInfo(this.transform, "Running");
 
         // Get target speed and speed difference from that target.
         float targetSpeed = Input.GetAxis("Horizontal") * _maxSpeed;
@@ -304,7 +304,7 @@ public class PlayerController : MonoBehaviour
 
     private void SprintingStateAction()
     {
-        Utils2D.DisplayInfo(this.transform, "Sprinting");
+        Utils.DisplayInfo(this.transform, "Sprinting");
 
         // Get target speed and speed difference from that target.
         float targetSpeed = Input.GetAxis("Horizontal") * (_maxSpeed + _sprintBoost);
@@ -372,7 +372,7 @@ public class PlayerController : MonoBehaviour
 
     private void JumpingStateAction()
     {
-        Utils2D.DisplayInfo(this.transform, "Jumping");
+        Utils.DisplayInfo(this.transform, "Jumping");
         _currentNumberOfJumpCalls += 1;
 
         // Uses impulse (force applied over a time duration) to allow for varying jump height.
@@ -444,7 +444,7 @@ public class PlayerController : MonoBehaviour
 
     public void AirborneStateAction()
     {
-        Utils2D.DisplayInfo(this.transform, "Airborne");
+        Utils.DisplayInfo(this.transform, "Airborne");
         // Strategy Pattern for different airborne mechanics.
         _AirbornActions[_currentAirborneAction].PerformAction();
 
@@ -495,7 +495,7 @@ public class PlayerController : MonoBehaviour
 
     public void WallStallStateAction()
     {
-        Utils2D.DisplayInfo(this.transform, "Wall Stall");
+        Utils.DisplayInfo(this.transform, "Wall Stall");
 
         // If the player is sliding up the wall stop them faster than gravity does.
         if (_playerBody.velocity.y > 0)
@@ -542,7 +542,7 @@ public class PlayerController : MonoBehaviour
 
     public void WallJumpStateAction()
     {
-        Utils2D.DisplayInfo(this.transform, "Wall Jump");
+        Utils.DisplayInfo(this.transform, "Wall Jump");
     }
 
     private void WallJumpUpdate()

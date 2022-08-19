@@ -1,29 +1,10 @@
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
 namespace Nebula
 {
-    public static class Utils2D
+    public static class Utils
     {
-        // This method will return a Vector2 increased/decreased by a factor specified to the
-        // vector component specified.
-        public static Vector2 SmoothVectorTo(Vector2 toChange, float factor, string component = "xy")
-        {
-            if (component == "x")
-            {
-                return new Vector2(toChange.x * factor, toChange.y);
-            }
-            else if (component == "y")
-            {
-                return new Vector2(toChange.x, toChange.y * factor);
-            }
-            else
-            {
-                return new Vector2(toChange.x * factor, toChange.y * factor);
-            }
-        }
-
         public static void DisplayInfo(Transform transform, string message)
         {
             // Create a canvas to put text onto at the transform passed in.
